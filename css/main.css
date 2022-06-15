@@ -79,8 +79,8 @@ form {
 	position: relative;
 }
 .billbord-swiper {
-    width: 100%;
-    height: 100vh;
+	width: 100%;
+	height: 100vh;
 }
 .image-billbord {
 	height: 100vh;
@@ -138,13 +138,13 @@ form {
 }
 .title-slide {
 	font-size: 24px;
-line-height: 29px;
-padding-left: 35px;
-font-weight: 700;
-color: #fff;
-cursor: pointer;
-display: inline-block;
-position: relative;
+	line-height: 29px;
+	padding-left: 35px;
+	font-weight: 700;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
 }
 .title-slide::before {
 	position: absolute;
@@ -179,12 +179,12 @@ position: relative;
 	opacity: 1;
 }
 .vertical-swiper .swiper-wrapper {
-    display: block;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+	display: block;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
 }
 .swiper.vertical-swiper {
 	height: 100%;
@@ -192,7 +192,7 @@ position: relative;
 }
 .lines {
 	position: absolute;
-    top: 0px;
+	top: 0px;
 	bottom: 0;
 	right: 100%;
 	display: flex;
@@ -213,9 +213,9 @@ position: relative;
 	width: 50px;
 	height: 50px;
 	margin-right: 43px;
-background: #B1CFE9;
-border-radius: 8px;
-padding-top: 12px;
+	background: #B1CFE9;
+	border-radius: 8px;
+	padding-top: 12px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -294,8 +294,8 @@ padding-top: 12px;
 }
 .list-laguage {
 	font-size: 14px;
-line-height: 17px;
-font-weight: 600;
+	line-height: 17px;
+	font-weight: 600;
 	display: flex;
 	align-items: center;
 }
@@ -329,8 +329,8 @@ font-weight: 600;
 }
 .logo-descr {
 	font-size: 13px;
-line-height: 16px;
-padding-top: 9px;
+	line-height: 16px;
+	padding-top: 9px;
 }
 .contacts-line {
 	display: flex;
@@ -347,11 +347,11 @@ padding-top: 9px;
 .btn-call {
 	width: 50px;
 	height: 50px;
-background: #B1CFE9;
-border-radius: 8px;
-display: flex;
-align-items: center;
-justify-content: center;
+	background: #B1CFE9;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .sandwich:hover,
 .btn-call:hover {
@@ -377,9 +377,9 @@ justify-content: center;
 }
 .title-section {
 	font-size: 45px;
-line-height: 58px;
-font-weight: 700;
-color: #144071;
+	line-height: 58px;
+	font-weight: 700;
+	color: #144071;
 }
 .about .title-section {
 	padding-bottom: 50px;
@@ -398,8 +398,8 @@ color: #144071;
 }
 .descr-big {
 	font-size: 24px;
-line-height: 34px;
-font-weight: 500;
+	line-height: 34px;
+	font-weight: 500;
 }
 .consultation .descr-big {
 	max-width: 694px;
@@ -415,26 +415,26 @@ font-weight: 500;
 .item-form input {
 	height: 60px;
 	font-size: 14px;
-line-height: 17px;
-padding: 0 22px;
-font-weight: 400;
-font-family: 'Lato';
-color: #58595B;
+	line-height: 17px;
+	padding: 0 22px;
+	font-weight: 400;
+	font-family: 'Lato';
+	color: #58595B;
 	background: #FFFFFF;
-box-shadow: 0px 7px 7px rgba(85, 96, 114, 0.2);
-border-radius: 6px;
-border: none;
+	box-shadow: 0px 7px 7px rgba(85, 96, 114, 0.2);
+	border-radius: 6px;
+	border: none;
 	width: 100%;
 }
 .btn-main {
 	height: 60px;
 	padding: 0 20px;
 	font-size: 16px;
-line-height: 19px;
-font-weight: 600;
-color: #fff;
+	line-height: 19px;
+	font-weight: 600;
+	color: #fff;
 	background-color: #F03D41;
-border-radius: 10px;
+	border-radius: 10px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -455,8 +455,8 @@ border-radius: 10px;
 	margin-bottom: 0;
 }
 .checkbox {
-font-size: 12px;
-line-height: 14px;
+	font-size: 12px;
+	line-height: 14px;
 	margin-top: 30px;
 	text-align: left;
 }
@@ -568,8 +568,8 @@ line-height: 14px;
 }
 .mail-main {
 	font-size: 14px;
-font-weight: 500;
-color: #fff;
+	font-weight: 500;
+	color: #fff;
 }
 .footer .contacts-line {
 	margin: 15px 0;
@@ -583,9 +583,9 @@ color: #fff;
 .footer-bottom {
 	padding: 19px 0;
 	font-size: 14px;
-line-height: 21px;
-margin-top: 20px;
-color: rgba(255, 255, 255, 0.5);
+	line-height: 21px;
+	margin-top: 20px;
+	color: rgba(255, 255, 255, 0.5);
 	border-top: 1px solid rgba(177, 207, 233, 0.2);
 }
 .footer-bottom a {
@@ -616,8 +616,8 @@ color: rgba(255, 255, 255, 0.5);
 	display: none;
 }
 .swiper-pagination-bullet {
-background-color: #fff;
+	background-color: #fff;
 }
 .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
-    right: 18px;
+	right: 18px;
 }
