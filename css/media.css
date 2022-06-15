@@ -252,7 +252,8 @@ body {
     margin-left: 0;
 }
 .title-mobilie {
-	padding: 15px;
+	padding: 20px 15px;
+	font-size: 16px;
 	text-align: center;
 	font-weight: 700;
 	color: #fff;
