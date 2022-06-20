@@ -272,16 +272,17 @@
 		padding-left: 30px;
 		line-height: 22px;
 	}
-.vertical-swiper .swiper-slide {
-	width: 100%;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-.vertical-swiper .swiper-slide-thumb-active {
-	background: rgba(20, 64, 113, 0.7);
-}
-.billbord-swiper, .image-billbord {
-    min-height: 100vh;
-}
+	.vertical-swiper .swiper-slide {
+		width: 100%;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	}
+	.vertical-swiper .swiper-slide-thumb-active {
+		background: rgba(20, 64, 113, 0.7);
+	}
+	.billbord-swiper, .image-billbord {
+		min-height: 455px;
+		height: calc(100vh - 40px);
+	}
 	.descr-big {
 		font-size: 15px;
 		line-height: 25px;
