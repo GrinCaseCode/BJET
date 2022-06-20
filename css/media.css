@@ -213,20 +213,74 @@
 		padding: 0 15px;
 	}
 	.header .logo img {
-		max-width: 200px;
+		max-width: 159px;
 	}
 	.header .logo-descr {
 		font-size: 12px;
 		line-height: 15px;
 		padding-top: 2px;
-	}
-	.wrapper-swiper {
 		display: none;
 	}
-	.billbord-swiper, .image-billbord {
-		height: 320px;
-		min-height: initial;
+	.logo-wrap .contacts-line {
+		display: flex;
 	}
+	.logo-wrap .contacts-line .phone-main,
+	.logo-wrap .contacts-line .btn-social {
+		display: inline-block;
+		margin: 0;
+	}
+	.title-slide {
+		max-width: 230px;
+	}
+	.logo-wrap .contacts-line .phone-main {
+		margin: 0 13px;
+	}
+	.wrapper-swiper {
+		left: 25px;
+		right: 0;
+	}
+	.sandwich {
+		width: 35px;
+		height: 35px;
+		padding-top: 7px;
+	}
+	.btn-call {
+		width: 35px;
+		height: 35px;
+	}
+	.sandwich span {
+		width: 14px;
+		height: 1.4px;
+	}
+	.sw-bottom {
+		top: 9px;
+	}
+	.sw-footer {
+		top: 14px;
+	}
+	.wrapper-swiper::after, 
+	.wrapper-swiper::before,
+	.title-slide::before,
+	.lines {
+		display: none;
+	}
+	.billbord .swiper-pagination {
+		display: none;
+	}
+	.title-slide {
+		padding-left: 30px;
+		line-height: 22px;
+	}
+.vertical-swiper .swiper-slide {
+	width: 100%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.vertical-swiper .swiper-slide-thumb-active {
+	background: rgba(20, 64, 113, 0.7);
+}
+.billbord-swiper, .image-billbord {
+    min-height: 100vh;
+}
 	.descr-big {
 		font-size: 15px;
 		line-height: 25px;
@@ -267,9 +321,7 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.billbord-swiper, .image-billbord {
-		height: 300px;
-	}
+
 	.title-section {
 		font-size: 24px;
 		line-height: 32px;

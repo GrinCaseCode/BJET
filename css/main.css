@@ -621,3 +621,6 @@ form {
 .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
 	right: 18px;
 }
+.logo-wrap .contacts-line {
+	display: none;
+}
