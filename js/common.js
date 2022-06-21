@@ -47,6 +47,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			});
 		}
 	}
+
+	  $(".item-question__head").click(function() {
+  $(this).parent().toggleClass("active");
+  $(this).siblings().slideToggle(200);
+  $(this).parent().siblings(".item-question").removeClass("active");
+  $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+});
 	//слайдер
 
 
@@ -62,9 +69,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		slidesPerView: 1,
 		spaceBetween: 0,
 		releaseOnEdges: true,
-		 autoplay: {
-   delay: 5000,
- },
+		autoplay: {
+			delay: 5000,
+		},
 		mousewheel: true,
 		mousewheel: {
 			releaseOnEdges: true,
@@ -73,8 +80,59 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			swiper: swiper,
 		},
 		pagination: {
-			el: ".swiper-pagination",
+			el: ".billbord-swiper .swiper-pagination",
 		},
+		breakpoints: {
+			768: {
+
+			}
+		}
+	});
+
+	var swiper_2 = new Swiper(".vertical-menagement", {
+		spaceBetween: 0,
+		slidesPerView: 6,
+		freeMode: true,
+		watchSlidesProgress: false,
+	});
+
+	var swiper2_2 = new Swiper(".management-swiper", {
+		slidesPerView: 1,
+		autoHeight: true, 
+		spaceBetween: 0,
+		autoplay: {
+			delay: 5000,
+		},
+		thumbs: {
+			swiper: swiper_2,
+		},
+		pagination: {
+			el: ".management-swiper .swiper-pagination",
+		},
+		breakpoints: {
+			768: {
+				autoHeight: false, 
+			}
+		}
+	});
+
+	var swiper_3 = new Swiper(".nav-slider", {
+		spaceBetween: 0,
+		slidesPerView: 6,
+		freeMode: true,
+		watchSlidesProgress: false,
+	});
+
+	var swiper4 = new Swiper(".advantages-swiper", {
+		slidesPerView: 1,
+		spaceBetween: 0,
+		thumbs: {
+			swiper: swiper_3,
+		},
+		 navigation: {
+          nextEl: ".controls-swiper .swiper-button-next",
+          prevEl: ".controls-swiper .swiper-button-prev",
+        },
 		breakpoints: {
 			768: {
 

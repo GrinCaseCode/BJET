@@ -1,4 +1,15 @@
 /*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1740px) {
+	.questions .block-form {
+		margin-right: -90px;
+		margin-left: -30px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	.item-question {
+		margin-right: 30px;
+	}
+}
 @media only screen and (max-width : 1700px) {
 	.wrapper-swiper {
 		top: 140px;
@@ -19,6 +30,33 @@
 	.footer__center {
 		margin-left: -110px;
 	}
+	.billbord-page .title-big {
+		padding-bottom: 30px;
+	}
+	.billbord-page .descr-big {
+		padding-bottom: 50px;
+	}
+	.content-billbord {
+		height: calc(100vh - 140px);
+	}
+	.title-big {
+		font-size: 63px;
+		line-height: 75px;
+	}
+	.questions .block-form {
+		margin-right: -55px;
+		margin-left: -65px;
+	}
+	.item-question {
+		margin-right: 70px;
+	}
+	.item-question__head {
+		font-size: 27px;
+		line-height: 32px;
+	}
+	.partners__left::after {
+		margin-right: -30px;
+	}
 }
 @media only screen and (max-width : 1600px) {
 	.about p {
@@ -38,10 +76,77 @@
 		font-size: 15px;
 		line-height: 25px;
 	}
+	.about_page .title-section {
+		font-size: 35px;
+		line-height: 51px;
+	}
+	.billbord-page .descr-big {
+		padding-bottom: 30px;
+	}
+	.title-big {
+		font-size: 57px;
+		line-height: 66px;
+	}
+	.title-middle {
+		font-size: 26px;
+		line-height: 33px;
+	}
+	.management-swiper .swiper-slide {
+		padding: 22px 30px;
+	}
+	.consultation_page .title-section {
+		font-size: 39px;
+		line-height: 40px;
+	}
+	.descr-big {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.advantages .descr-big {
+		padding-bottom: 35px;
+	}
+	.content-advantage {
+		padding-top: 55px;
+		width: 510px;
+		margin-right: calc((100% - 1300px)/2);
+	}
+	.content-advantage .descr-middle {
+		margin-bottom: 40px;
+	}
+	.image-advantage {
+		height: 380px;
+	}
+	.content-advantage::before {
+		left: -150px;
+	}
+	.partners-wrap {
+		padding-left: 30px;
+	}
+	.questions .block-form {
+		margin-right: -30px;
+		margin-left: -80px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.item-question {
+		margin-right: 80px;
+	}
+	.item-question__head {
+		font-size: 24px;
+	}
+	.title-form {
+		font-size: 33px;
+		line-height: 36px;
+	}
+	.descr-form {
+		font-size: 16px;
+		line-height: 21px;
+		padding-bottom: 25px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.descr-big {
-		font-size: 22px;
+		font-size: 20px;
 		line-height: 33px;
 	}
 	.consultation .descr-big {
@@ -69,6 +174,46 @@
 	}
 	.footer__nav_big {
 		font-size: 14px;
+	}
+	.questions .block-form {
+		margin-right: 0;
+	}
+	.title-form {
+		font-size: 28px;
+		line-height: 30px;
+	}
+	.descr-form {
+		font-size: 15px;
+	}
+	.content-advantage {
+		margin-right: calc((100% - 1170px)/2);
+	}
+	.footer__contacts {
+		width: initial;
+		margin-left: -20px;
+	}
+	.item-question__head {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.consultation_page .descr-big {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.consultation_page .descr-big a {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.consultation_page .title-section {
+		font-size: 34px;
+		line-height: 34px;
+	}
+	.vertical-menagement .title-slide {
+		font-size: 16px;
+	}
+	.about_page .title-section {
+		font-size: 31px;
+		line-height: 45px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -108,6 +253,26 @@
 	}
 	.footer-bottom {
 		font-size: 13px;
+	}
+	.about_page .title-section {
+		font-size: 25px;
+		line-height: 34px;
+	}
+	.consultation_page .consultation__left {
+		padding-left: 0;
+	}
+	.consultation_page .title-section {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.item-partner {
+		padding: 5px;
+	}
+	.questions .title-section {
+		padding-bottom: 30px;
+	}
+	.questions {
+		padding: 50px 0;
 	}
 }
 
@@ -176,6 +341,7 @@
 	}
 	.footer__contacts {
 		width: 100%;
+		margin-left: 0;
 	}
 	.footer .social-list {
 		padding-top: 20px;
@@ -204,6 +370,88 @@
 	.footer__nav a:hover {
 		color: #fff;
 		border-color: #fff;
+	}
+	.partners__left::after {
+		display: none;
+	}
+	.partners__left {
+		padding: 0 15px;
+	}
+	.nav-slider {
+		margin-top: 20px;
+	}
+	.advantages-wrap {
+		display: block;
+	}
+	.descr-big {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.consultation_page .descr-big {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.consultation_page .descr-big a {
+		font-size: 18px;
+		line-height: 29px;
+	}
+	.consultation_page .descr-big {
+		max-width: 100%;
+	}
+	.wrapper-swiper-management {
+		display: none;
+	}
+	.management {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	.about {
+		padding-bottom: 30px;
+	}
+	.title-big {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.content-advantage {
+		padding: 30px 15px;
+		margin: 0;
+		width: 100%;
+	}
+	.partners-wrap {
+		padding-left: 0;
+	}
+	.item-question {
+		margin-right: 0;
+	}
+	.questions .block-form {
+		margin: 0;
+		margin-top: 30px;
+	}
+	.image-advantage {
+		height: 295px;
+	}
+	.title-block {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.content-advantage .title-block {
+		padding-bottom: 20px;
+	}
+	.advantages .descr-big {
+		padding-bottom: 25px;
+	}
+	.advantages {
+		padding-top: 35px;
+		padding-bottom: 45px;
+	}
+	.management .descr-big {
+		padding-bottom: 25px;
+	}
+	.consultation_page .consultation__left {
+		padding-left: 15px;
+	}
+	.content-advantage::before {
+		display: none;
 	}
 }
 
@@ -319,6 +567,92 @@
 		position: absolute;
 		display: block;
 	}
+	.title-big {
+		font-size: 36px;
+		line-height: 48px;
+	}
+	.billbord-page .title-big {
+		padding-bottom: 18px;
+	}
+	.about_page .title-section {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.title-middle {
+		font-size: 22px;
+		line-height: 29px;
+	}
+	.management-swiper .swiper-slide {
+		padding: 22px 15px;
+		padding-bottom: 40px;
+	}
+	.consultation_page .title-section {
+		padding-bottom: 0;
+	}
+	.consultation_page .btn-main {
+		max-width: initial;
+	}
+	.controls-swiper {
+		margin-bottom: 25px;
+		padding-right: 15px;
+	}
+	.nav-slider .lines {
+		display: flex;
+	}
+	.nav-slider {
+		display: none;
+	}
+	.partners {
+		padding-bottom: 30px;
+	}
+	.partners .title-section {
+		padding-bottom: 20px;
+	}
+	.questions {
+		padding-top: 30px;
+	}
+	.item-question__content {
+		padding-right: 0;
+	}
+	.item-question__head {
+		padding: 15px 0;
+		padding-right: 10px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.billbord-page {
+		padding-top: 93px;
+		position: relative;
+		z-index: 1;
+	}
+	.image-billbord {
+		position: relative;
+		z-index: 1;
+	}
+	.image-billbord.show-mob::before,
+	.billbord-page::before {
+		position: absolute;
+		display: block;
+		content: " ";
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.2);
+		z-index: -1;
+	}
+	.image-billbord.show-mob::before {
+		z-index: 0;
+	}
+	.content-billbord {
+		padding-bottom: 40px;
+	}
+	.management-swiper p {
+		margin-bottom: 15px;
+	}
+	.hidden-mob {
+		display: none;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -334,6 +668,57 @@
 	.about {
 		padding-bottom: 30px;
 	}
+	.title-big {
+    font-size: 31px;
+    line-height: 39px;
+}
+.billbord-page .title-big br {
+	display: none;
+
+}
+.billbord-page .title-big {
+	padding-bottom: 15px;
+}
+.title-middle {
+    font-size: 18px;
+    line-height: 26px;
+}
+.management-swiper .title-middle {
+	padding-bottom: 15px;
+}
+.consultation_page .title-section {
+	font-size: 26px;
+}
+.consultation_page .descr-big {
+    font-size: 14px;
+    line-height: 24px;
+}
+.consultation_page .descr-big a {
+    font-size: 16px;
+    line-height: 23px;
+}
+.title-section + .descr-big {
+    padding-top: 10px;
+}
+.descr-middle {
+    font-size: 16px;
+    line-height: 27px;
+    }
+    .title-block {
+    font-size: 35px;
+    line-height: 44px;
+}
+.image-advantage {
+    height: 220px;
+}
+.questions .block-form {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+}
+.questions {
+	padding-bottom: 40px;
+}
 }
 
 /* Custom, iPhone Retina */
@@ -356,6 +741,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+	.show-mob,
 	.swiper-pagination {
 		display: none !important;
 	}
