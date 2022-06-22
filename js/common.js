@@ -140,14 +140,41 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 	});
 
-	$('.slider').slick({
+	$('.slider-news').slick({
 		arrows: true,
-		dots: true,
-		infinite: true,
-		slidesToShow: 1,
+		dots: false,
+		infinite: false,
+		  vertical: true,
+  verticalSwiping: true,
+		slidesToShow: 3,
 		slidesToScroll: 1,
-		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-up"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-down"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+			vertical: false,
+			 verticalSwiping: false,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+			vertical: false,
+			 verticalSwiping: false,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+			vertical: false,
+			 verticalSwiping: false,
+			}
+		}
+		]
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
