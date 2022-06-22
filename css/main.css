@@ -446,6 +446,7 @@ form {
 	display: flex;
 	align-items: center;
 	cursor: pointer;
+	text-align: left;
 }
 .jq-selectbox__trigger {
 	width: 15px;
@@ -469,6 +470,7 @@ form {
 	width: 100%;
 	font-size: 14px;
 	border-radius: 6px;
+	text-align: left;
 	color: #58595B;
 	background-color: #fff;
 }
