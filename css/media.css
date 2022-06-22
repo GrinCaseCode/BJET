@@ -952,6 +952,9 @@
     padding-bottom: 0;
     height: initial;
 }
+.jq-selectbox__trigger {
+	right: 12px;
+}
 }
 
 /* Extra Small Devices, Phones */
