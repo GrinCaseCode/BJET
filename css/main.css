@@ -460,7 +460,7 @@ form {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
-	transition: all 0.3s;
+	transition: all 0.3s; 
 	position: absolute;
 }
 .jqselect.opened .jq-selectbox__trigger {
