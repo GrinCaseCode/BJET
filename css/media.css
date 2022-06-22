@@ -947,6 +947,11 @@
 			transform: scale(0.2) translate(-160%, -180%);
 		}
 	}
+	.billbord-rent .content-billbord {
+    min-height: initial;
+    padding-bottom: 0;
+    height: initial;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1041,7 +1046,19 @@
 		display: none;
 	}
 	.slider-news .slick-arrow {
-    top: 33%;
+			width: 40px;
+	height: 40px;
+    top: 29%;
+}
+.slider-news .slick-prev {
+    left: -19px;
+}
+.slider-news .slick-next {
+    right: -19px;
+}
+.item-news {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .rent-plane .form-rent {
     margin-top: 25px;
@@ -1052,11 +1069,17 @@
 .questions .title-section {
     padding-bottom: 20px;
 }
-.billbord-rent .content-billbord {
-    min-height: 860px;
-}
 .plane-billbord {
 	display: none;
+}
+.billbord-rent .descr-big {
+    max-width: 100%;
+}
+.billbord-rent .descr-big {
+    margin-bottom: 20px;
+}
+.link-page {
+	padding-bottom: 4px;
 }
 }
 

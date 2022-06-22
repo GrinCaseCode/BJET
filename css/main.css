@@ -1368,6 +1368,9 @@ font-weight: 700;
 	margin: 0 auto;
 	top: 15px;
 	transform: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .slider-news .slick-next {
 	bottom: 15px;
