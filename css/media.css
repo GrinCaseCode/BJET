@@ -115,6 +115,9 @@
 		width: 320px;
 	}
 }
+
+
+
 @media only screen and (max-width : 1600px) {
 	.about p {
 		margin-bottom: 15px;
@@ -211,6 +214,48 @@
 	.slider-news .slick-arrow::before {
 		width: 294px;
 	}
+	.about-info {
+		font-size: 16px;
+		line-height: 25px;
+		padding: 44px 210px;
+		padding-right: 110px;
+		max-width: 945px;
+	}
+	.about_spares::before {
+		right: -100px;
+	}
+	.image-inquiry {
+		margin-top: 70px;
+	}
+	.slider-partners {
+		margin-left: 35px;
+	}
+	.item-advantage {
+		font-size: 17px;
+	}
+	.billbord-page_rent {
+		min-height: initial;
+	}
+	.about_maintenace .title-section {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.about_sertificats {
+		padding-bottom: 90px;
+	}
+	.item-sertificat {
+		height: 579px;
+	}
+	.sertificats-section .about-info {
+		margin-bottom: 0;
+	}
+	.sertificats-section {
+		padding-bottom: 80px;
+	}
+	.contacts .block-form {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.descr-big {
@@ -299,14 +344,91 @@
 		margin-right: 0;
 	}
 	.slider-news .slick-arrow::before {
-    width: 248px;
-}
-.rent-plane .form-rent {
-    margin-top: 120px;
-}
-.rent-plane {
-    padding-top: 110px;
-}
+		width: 248px;
+	}
+	.rent-plane .form-rent {
+		margin-top: 120px;
+	}
+	.rent-plane {
+		padding-top: 110px;
+	}
+	.title-rent {
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.about_spares::before {
+		right: -190px;
+	}
+	.about-bottom__image {
+		margin-right: 30px;
+	}
+	.about-bottom__image img {
+		max-width: 400px;
+	}
+	.inquiry .descr-section {
+		margin-bottom: 18px;
+	}
+	.contact-inquiry {
+		font-size: 17px;
+		line-height: 31px;
+	}
+	.contact-inquiry .phone-main {
+		font-size: 21px;
+		margin-left: 13px;
+	}
+	.contact-inquiry .btn-social {
+		margin-left: 20px;
+		font-size: 21px;
+	}
+	.contact-inquiry .mail-main {
+		font-size: 20px;
+	}
+	.inquiry .row_page {
+		margin-top: 24px;
+	}
+	.image-inquiry {
+		margin-top: 90px;
+	}
+	.item-advantage {
+		font-size: 16px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.item-service {
+		font-size: 16px;
+	}
+	.about_maintenace .title-section {
+		font-size: 35px;
+		line-height: 47px;
+	}
+	.about_sertificats {
+		padding-bottom: 35px;
+	}
+	.sertificats-section .about-info {
+		top: -30px;
+		margin-bottom: 20px;
+	}
+	.item-sertificat {
+		height: 505px;
+	}
+	.slider-sertificats .slick-prev {
+		left: -10px;
+	}
+	.slider-sertificats .slick-next {
+		right: -10px;
+	}
+	.item-sertificat__title {
+		font-size: 17px;
+		line-height: 26px;
+		margin-bottom: 20px;
+	}
+	.item-sertificat__content {
+		font-size: 16px;
+	}
+	.contacts .block-form {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -379,46 +501,103 @@
 		}
 	}
 	.billbord-rent .content-billbord {
-    padding-top: 125px;
-}
-.wrap-form {
-	flex-wrap: wrap;
-}
-.form-rent .btn-main {
-	width: 100%;
-	margin-left: 0;
-	margin-bottom: 20px;
-}
-.table-main table td:first-child {
-    width: 190px;
-}
-.price-td {
-    font-size: 16px;
-}
-.slider-news .slick-arrow::before {
-    width: 240px;
-}
-.item-news__title {
-    font-size: 17px;
-    line-height: 22px;
-    margin-bottom: 13px;
-}
-.item-news__date {
-    font-size: 13px;
-    margin-bottom: 10px;
-    }
-    .sidebar-news {
-    margin-right: -35px;
-}
-.rent-plane .form-rent {
-    margin-top: 60px;
-}
-.rent-plane {
-    padding-top: 75px;
-}
-.rent-plane .title-big {
-    padding-bottom: 18px;
-    }
+		padding-top: 125px;
+	}
+	.wrap-form {
+		flex-wrap: wrap;
+	}
+	.form-rent .btn-main {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.table-main table td:first-child {
+		width: 190px;
+	}
+	.price-td {
+		font-size: 16px;
+	}
+	.slider-news .slick-arrow::before {
+		width: 240px;
+	}
+	.item-news__title {
+		font-size: 17px;
+		line-height: 22px;
+		margin-bottom: 13px;
+	}
+	.item-news__date {
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.sidebar-news {
+		margin-right: -35px;
+	}
+	.rent-plane .form-rent {
+		margin-top: 60px;
+	}
+	.rent-plane {
+		padding-top: 75px;
+	}
+	.rent-plane .title-big {
+		padding-bottom: 18px;
+	}
+	.title-rent {
+		font-size: 25px;
+		line-height: 33px;
+	}
+	.billbord-page_rent .title-big {
+		font-size: 45px;
+		line-height: 55px;
+	}
+	.about-info {
+		margin-top: 10px;
+		position: relative;
+		z-index: 1;
+	}
+	.descr-section {
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.inquiry .title-section {
+		margin-bottom: 10px;
+	}
+	.image-inquiry {
+		margin-top: 140px;
+	}
+	.item-service__image {
+		height: 265px;
+	}
+	.item-service__content {
+		padding: 22px 20px;
+	}
+	.inquiry-maintence {
+		padding-top: 80px;
+		padding-bottom: 45px;
+	}
+	.about_maintenace .title-section {
+		font-size: 29px;
+		line-height: 40px;
+	}
+	.logo-descr {
+		padding-top: 0;
+	}
+	.header_page {
+		padding: 12px 0;
+	}
+	.wrapper_page {
+		padding-top: 79px;
+	}
+	.breadcrumbs_page {
+		padding: 20px 0;
+	}
+	.item-sertificat {
+		height: 400px;
+	}
+	.title-contact {
+		font-size: 21px;
+		line-height: 30px;
+		padding-bottom: 10px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -616,13 +795,13 @@
 		width: calc(50% - 8px);
 	}
 	.prices .table-main {
-    margin-right: 0;
-}
-.prices .table-main table th {
-	font-size: 16px;
-	padding: 15px 0;
-}
-.plane-billbord {
+		margin-right: 0;
+	}
+	.prices .table-main table th {
+		font-size: 16px;
+		padding: 15px 0;
+	}
+	.plane-billbord {
 		transform: scale(0.3) translate(-80%, -100%);
 	}
 	@keyframes plane {
@@ -646,7 +825,7 @@
 		padding-left: 0;
 	}
 	.slider-news .slick-arrow::before {
-		    width: 218px;
+		width: 218px;
 	}
 	.slider-news .slick-arrow {
 		top: 40%;
@@ -661,20 +840,126 @@
 		left: auto;
 	}
 	.item-news__title {
-    font-size: 15px;
-    line-height: 21px;
-}
-.item-news {
-    padding: 10px;
-    padding-bottom: 45px;
-    border: none;
-}
-.management-swiper .swiper-pagination {
-	display: block !important;
-}
-.partners {
-	padding-top: 30px;
-}
+		font-size: 15px;
+		line-height: 21px;
+	}
+	.item-news {
+		padding: 10px;
+		padding-bottom: 45px;
+		border: none;
+	}
+	.management-swiper .swiper-pagination {
+		display: block !important;
+	}
+	.partners {
+		padding-top: 30px;
+	}
+	.billbord-page_rent .title-big {
+		font-size: 38px;
+		line-height: 45px;
+		margin-top: 20px;
+		padding-bottom: 20px;
+	}
+	.title-rent {
+		font-size: 22px;
+		line-height: 29px;
+	}
+	.form-rent_spares .checkbox {
+		margin-top: 15px;
+	}
+	.billbord-page_rent .content-billbord {
+		height: initial;
+	}
+	.about_spares::before {
+		display: none;
+	}
+	.about-info {
+		font-size: 14px;
+		line-height: 24px;
+		padding: 22px 170px;
+		padding-right: 20px;
+		background-position: left -28px center;
+	}
+	.about-bottom {
+		margin-top: 35px;
+	}
+	.about-bottom__image img {
+		max-width: 350px;
+		margin-bottom: 0;
+	}
+	.about_rent {
+		padding-bottom: 50px;
+	}
+	.image-inquiry {
+		margin-top: 0;
+		display: none;
+	}
+	.image-inquiry img {
+		max-width: 200px;
+	}
+	.inquiry {
+		padding-bottom: 40px;
+	}
+	.advantages-page .title-section {
+		text-align: center;
+		padding-bottom: 0;
+	}
+	.slider-partners {
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.services .title-section {
+		padding-bottom: 0;
+	}
+	.item-service {
+		font-size: 14px;
+		min-height: initial;
+	}
+	.services {
+		padding-top: 35px;
+		padding-bottom: 52px;
+	}
+	.inquiry-maintence .title-section {
+		padding-bottom: 25px;
+	}
+	.inquiry-maintence {
+		padding-top: 35px;
+		padding-bottom: 40px;
+	}
+	.item-advantage {
+		min-height: initial;
+	}
+	.item-sertificat {
+		margin: 0 7px;
+		height: 310px;
+	}
+	.slider-sertificats {
+		margin: 0 -7px;
+	}
+	.item-sertificat__content {
+		font-size: 14px;
+		padding: 15px;
+		background-size: 70px auto;
+		background-position: right 5px bottom 15px;
+	}
+	.item-sertificat__title {
+		font-size: 14px;
+		line-height: 19px;
+		margin-bottom: 13px;
+	}
+	.contacts .title-section {
+		padding-bottom: 30px;
+	}
+	.value-contact {
+		margin-bottom: 13px;
+	}
+	.contacts .block-form {
+		margin: 20px 0;
+		margin-bottom: 30px;
+	}
+	#map {
+		height: 370px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -791,7 +1076,7 @@
 	}
 	.title-big {
 		font-size: 36px;
-		line-height: 48px;
+		line-height: 43px;
 	}
 	.billbord-page .title-big {
 		padding-bottom: 18px;
@@ -879,82 +1164,181 @@
 		max-width: 300px;
 	}
 	.form-rent {
-    padding: 15px 10px;
-}
-.billbord-rent .content-billbord {
-    min-height: 700px;
-}
-.about_rent .row > div:nth-child(even) img {
-    margin-top: 0;
-}
-.prices .title-section {
-    padding-top: 35px;
-    padding-bottom: 25px;
-    }
-    .table-main::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-.table-main::-webkit-scrollbar:vertical {
-    width: 3px;
-}
-.table-main::-webkit-scrollbar:horizontal {
-    height: 3px;
-}
-.table-main::-webkit-scrollbar-thumb {
-    background-color: #98b8d5;
-    border-radius: 10px;
-}
-.table-main::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #fff;
-}
- .table-main {
- 	margin-right: -15px !important;
- 	overflow: auto;
- }
-  .table-main table {
-  	width: 700px;
-  }
-  .table-main table td {
-    padding: 14px 0;
-}
-.slider-news .slick-next {
-    right: -10px;
-    }
-    .slider-news .slick-prev {
-    left: -10px;
-}
-.slider-news .slick-arrow::before {
-	height: 50px;
-}
-.rent-plane {
-    padding-top: 35px;
-    background-position: 60% 50%;
-}
-.rent-plane .title-big {
-    padding-bottom: 5px;
-}
-.plane-billbord {
-	    animation: none;
+		padding: 15px 10px;
+	}
+	.billbord-rent .content-billbord {
+		min-height: 700px;
+	}
+	.about_rent .row > div:nth-child(even) img {
+		margin-top: 0;
+	}
+	.prices .title-section {
+		padding-top: 35px;
+		padding-bottom: 25px;
+	}
+	.table-main::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+	.table-main::-webkit-scrollbar:vertical {
+		width: 3px;
+	}
+	.table-main::-webkit-scrollbar:horizontal {
+		height: 3px;
+	}
+	.table-main::-webkit-scrollbar-thumb {
+		background-color: #98b8d5;
+		border-radius: 10px;
+	}
+	.table-main::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #fff;
+	}
+	.table-main {
+		margin-right: -15px !important;
+		overflow: auto;
+	}
+	.table-main table {
+		width: 700px;
+	}
+	.table-main table td {
+		padding: 14px 0;
+	}
+	.slider-news .slick-next {
+		right: -10px;
+	}
+	.slider-news .slick-prev {
+		left: -10px;
+	}
+	.slider-news .slick-arrow::before {
+		height: 50px;
+	}
+	.rent-plane {
+		padding-top: 35px;
+		background-position: 60% 50%;
+	}
+	.rent-plane .title-big {
+		padding-bottom: 5px;
+	}
+	.plane-billbord {
+		animation: none;
 		transform: scale(0.2) translate(-160%, -180%);
 	}
 	@keyframes plane {
 		from {
-			    transform: scale(0.05);
-    transform-origin: 0% 16%;
+			transform: scale(0.05);
+			transform-origin: 0% 16%;
 		}
 		to {
 			transform: scale(0.2) translate(-160%, -180%);
 		}
 	}
 	.billbord-rent .content-billbord {
-    min-height: initial;
-    padding-bottom: 0;
-    height: initial;
-}
-.jq-selectbox__trigger {
-	right: 12px;
-}
+		min-height: initial;
+		padding-bottom: 0;
+		height: initial;
+	}
+	.jq-selectbox__trigger {
+		right: 12px;
+	}
+	.about-info {
+		padding: 30px 20px;
+		background-image: none;
+	}
+	.about-info::before {
+		position: absolute;
+		display: block;
+		content: " ";
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background-image: url(../img/logo_info.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #1B4577;
+		opacity: 0.5;
+		background-blend-mode: luminosity;
+	}
+	.about-bottom {
+		display: block;
+	}
+	.about-bottom__image {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.about-bottom__image img {
+		max-width: 100%;
+	}
+	.about_spares {
+		padding-bottom: 20px;
+	}
+	.contact-inquiry {
+		font-size: 15px;
+		line-height: 30px;
+	}
+	.contact-inquiry .phone-main {
+		font-size: 18px;
+		margin-left: 10px;
+	}
+	.contact-inquiry .btn-social {
+		margin-left: 16px;
+		font-size: 19px;
+	}
+	.contact-inquiry .mail-main {
+		font-size: 16px;
+	}
+	.advantages-page {
+		padding: 40px 0;
+	}
+	.scale__item:first-child .scale__mark:first-child, .scale__mark:last-child {
+		height: 24px;
+	}
+	.scale {
+		margin-top: 35px;
+	}
+	.slide-partner {
+		padding: 10px;
+	}
+	.slider-partners {
+		margin-bottom: 0;
+	}
+	.billbord-page_rent .content-billbord {
+		min-height: initial;
+		padding-bottom: 0;
+		height: initial;
+	}
+	.billbord-page .descr-big {
+		line-height: 26px;
+	}
+	.item-service .descr-big {
+		margin-bottom: 13px;
+	}
+	.inquiry-maintence .title-section {
+		text-align: center;
+	}
+	.inquiry-maintence .checkbox {
+		margin-top: 18px;
+	}
+	.about_maintenace .title-section {
+		font-size: 25px;
+		line-height: 34px;
+	}
+	.about_maintenace {
+		padding-bottom: 30px;
+	}
+	.sertificats-section {
+		padding-bottom: 50px;
+	}
+	.slider-sertificats {
+		padding-bottom: 30px;
+	}
+	.contacts .title-section {
+		padding-bottom: 20px;
+	}
+	.title-contact {
+		padding-top: 10px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1006,17 +1390,17 @@
 		font-size: 16px;
 		line-height: 27px;
 	}
-.title-block {
-    font-size: 32px;
-    line-height: 38px;
-}
-.descr-middle {
-    font-size: 14px;
-    line-height: 24px;
-}
-.content-advantage .descr-middle {
-    margin-bottom: 15px;
-}
+	.title-block {
+		font-size: 32px;
+		line-height: 38px;
+	}
+	.descr-middle {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.content-advantage .descr-middle {
+		margin-bottom: 15px;
+	}
 	.image-advantage {
 		height: 220px;
 	}
@@ -1049,41 +1433,87 @@
 		display: none;
 	}
 	.slider-news .slick-arrow {
-			width: 40px;
-	height: 40px;
-    top: 29%;
-}
-.slider-news .slick-prev {
-    left: -19px;
-}
-.slider-news .slick-next {
-    right: -19px;
-}
-.item-news {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.rent-plane .form-rent {
-    margin-top: 25px;
-}
-.form-rent {
-    padding: 20px 15px;
-}
-.questions .title-section {
-    padding-bottom: 20px;
-}
-.plane-billbord {
-	display: none;
-}
-.billbord-rent .descr-big {
-    max-width: 100%;
-}
-.billbord-rent .descr-big {
-    margin-bottom: 20px;
-}
-.link-page {
-	padding-bottom: 4px;
-}
+		width: 40px;
+		height: 40px;
+		top: 29%;
+	}
+	.slider-news .slick-prev {
+		left: -19px;
+	}
+	.slider-news .slick-next {
+		right: -19px;
+	}
+	.item-news {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.rent-plane .form-rent {
+		margin-top: 25px;
+	}
+	.form-rent {
+		padding: 20px 15px;
+	}
+	.questions .title-section {
+		padding-bottom: 20px;
+	}
+	.plane-billbord {
+		display: none;
+	}
+	.billbord-rent .descr-big {
+		max-width: 100%;
+	}
+	.billbord-rent .descr-big {
+		margin-bottom: 20px;
+	}
+	.link-page {
+		padding-bottom: 4px;
+	}
+	.billbord-page_rent .title-big {
+		font-size: 33px;
+		line-height: 42px;
+	}
+	.form-rent_spares .checkbox {
+		margin-top: 0;
+	}
+	.contact-inquiry .phone-main {
+		font-size: 16px;
+	}
+	.contact-inquiry {
+		font-size: 13px;
+		line-height: 30px;
+	}
+	.contact-inquiry .btn-social {
+		margin-left: 11px;
+		font-size: 17px;
+	}
+	.contact-inquiry .mail-main {
+		font-size: 15px;
+	}
+	.breadcrumbs li::after {
+		margin: 0 6px;
+	}
+	.breadcrumbs {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.billbord-page_maintence .breadcrumbs {
+		margin-bottom: 20px;
+	}
+	.item-service__image {
+		height: 232px;
+	}
+	.item-sertificat {
+		height: 229px;
+		max-width: 158px;
+		margin: 0 auto;
+	}
+	.sertificats-section .about-info {
+		margin-bottom: 0;
+	}
+	.contacts .block-form {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -1116,6 +1546,16 @@
 @media only screen and (min-width : 992px) {
 	.footer__content {
 		display: block !important;
+	}
+	.item-service_big {
+		flex-direction: row;
+		align-items: initial;
+	}
+	.item-service_big .item-service__image {
+		width: 50%;
+	}
+	.item-service_big .item-service__content {
+		min-height: 100%;
 	}
 }
 
