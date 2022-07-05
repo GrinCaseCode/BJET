@@ -229,6 +229,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
+	/*input file*/
+	$("input[type='file']").change(function(){
+		var filename_text = $(this).parent().siblings(".name-upload");
+		var filename = $(this).val().replace(/.*\\/, "");
+		filename_text.html(filename);
+	});
+
 
 	 // стайлер для select
 	 $('select').styler();
