@@ -1554,6 +1554,9 @@
 		line-height: 27px;
 		margin-bottom: 15px;
 	}
+	.wrapper_page {
+    padding-top: 73px;
+}
 }
 
 /* Extra Small Devices, Phones */
