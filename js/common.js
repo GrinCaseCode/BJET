@@ -21,7 +21,6 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
-
 	//кнопка sandwich
 	$(".btn_nav").click(function() {
 		$(".sandwich").toggleClass("active");
@@ -48,12 +47,12 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 	}
 
-	  $(".item-question__head").click(function() {
-  $(this).parent().toggleClass("active");
-  $(this).siblings().slideToggle(200);
-  $(this).parent().siblings(".item-question").removeClass("active");
-  $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
-});
+	$(".item-question__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-question").removeClass("active");
+		$(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+	});
 	//слайдер
 
 
@@ -129,10 +128,10 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		thumbs: {
 			swiper: swiper_3,
 		},
-		 navigation: {
-          nextEl: ".controls-swiper .swiper-button-next",
-          prevEl: ".controls-swiper .swiper-button-prev",
-        },
+		navigation: {
+			nextEl: ".controls-swiper .swiper-button-next",
+			prevEl: ".controls-swiper .swiper-button-prev",
+		},
 		breakpoints: {
 			768: {
 
@@ -144,8 +143,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		arrows: true,
 		dots: false,
 		infinite: false,
-		  vertical: true,
-  verticalSwiping: true,
+		vertical: true,
+		verticalSwiping: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-up"></i><div/>',
@@ -154,24 +153,24 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		{
 			breakpoint: 992,
 			settings: {
-			vertical: false,
-			 verticalSwiping: false,
+				vertical: false,
+				verticalSwiping: false,
 			}
 		},
 		{
 			breakpoint: 768,
 			settings: {
 				slidesToShow: 2,
-			vertical: false,
-			 verticalSwiping: false,
+				vertical: false,
+				verticalSwiping: false,
 			}
 		},
 		{
 			breakpoint: 480,
 			settings: {
 				slidesToShow: 1,
-			vertical: false,
-			 verticalSwiping: false,
+				vertical: false,
+				verticalSwiping: false,
 			}
 		}
 		]
@@ -189,7 +188,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		{
 			breakpoint: 1200,
 			settings: {
-			slidesToShow: 3,
+				slidesToShow: 3,
 			}
 		},
 		{
@@ -201,7 +200,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		{
 			breakpoint: 480,
 			settings: {
-		slidesToShow: 2,
+				slidesToShow: 2,
 			}
 		}
 		]
