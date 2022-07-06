@@ -1125,6 +1125,9 @@
 	.article {
 		padding-bottom: 40px;
 	}
+	.advantages + .partners {
+		padding-top: 0;
+	}
 }
 
 /* Small Devices, Tablets */
