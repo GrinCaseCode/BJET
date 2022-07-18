@@ -114,6 +114,27 @@
 	.table-main table td:first-child {
 		width: 320px;
 	}
+
+	/*new*/
+	.rent__right {
+		padding: 50px 60px;
+	}
+	.row_big > div {
+		padding: 0 25px;
+	}
+	.row_big {
+		margin: 0 -25px;
+	}
+	.vertical-rent .title-slide {
+		padding-left: 50px;
+	}
+	.rent__left {
+		width: 300px;
+	}
+	.image-vertical  {
+		max-width: 250px;
+	}
+
 }
 
 
@@ -277,6 +298,33 @@
 		padding: 30px;
 		height: 237px;
 		margin-bottom: 25px;
+	}
+
+	/*new*/
+	.advantages-page_equipment .item-advantage {
+		font-size: 15px;
+	}
+	.advantages-page_equipment .descr-big {
+		max-width: 950px;
+		margin-bottom: 10px;
+	}
+	.row_consultation {
+		margin: 0 -15px;
+	}
+	.row_consultation > div {
+		padding: 0 15px;
+	}
+	.consultation-equipment .descr-big {
+		max-width: 550px;
+	}
+	.equipments .item-service__image {
+		height: 360px;
+	}
+	.row_equipment {
+		margin: 0 -20px;
+	}
+	.row_equipment > div {
+		padding: 0 20px;
 	}
 }
 @media only screen and (max-width : 1400px) {
@@ -492,6 +540,44 @@
 	.article__left {
 		font-size: 16px;
 	}
+
+	/*new*/
+	.rent__right {
+		padding: 30px;
+	}
+	.wrapper-swiper-rent {
+		padding: 40px 0;
+	}
+	.image-swiper-rent {
+		height: 370px;
+	}
+	.row_big > div {
+		padding: 0 15px;
+	}
+	.row_big {
+		margin: 0 -15px;
+	}
+	.item-parametr {
+		padding-left: 35px;
+	}
+	.equipments .item-service__image {
+		height: 305px;
+	}
+	.item-fleet .table-main table th {
+		padding: 15px 10px;
+	}
+	.item-fleet .table-main table td:first-child {
+		width: 205px;
+	}
+	.slider-images__item {
+		height: 395px;
+	}
+	.modal-fleet__right {
+		padding-left: 44px;
+	}
+	.modal-fleet .title-section {
+		font-size: 30px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -705,6 +791,81 @@
 		line-height: 30px;
 		margin-bottom: 25px;
 	}
+
+	/*new*/
+	.image-swiper-rent {
+		height: 300px;
+	}
+	.vertical-rent .title-slide {
+		font-size: 12px;
+		padding-left: 15px;
+		height: 135px;
+	}
+	.rent__left {
+		width: 230px;
+	}
+	.image-vertical {
+		max-width: 170px;
+	}
+	.rent__right {
+		padding: 30px 15px;
+	}
+	.rent-bottom__buttons {
+		padding-right: 20px;
+	}
+	.row_big {
+		margin: 0 -7px;
+	}
+	.row_big > div {
+		padding: 0 7px;
+	}
+	.item-parametr {
+		font-size: 13px;
+	}
+	.item-plane {
+		width: 49%;
+	}
+	.equipment-about .title-section {
+		margin-bottom: 35px;
+		max-width: 722px;
+	}
+	.row_equipment {
+		margin: 0 -15px;
+	}
+	.row_equipment > div {
+		padding: 0 15px;
+	}
+	.equipment-about {
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+	.equipments .item-service__image {
+		height: 240px;
+	}
+	.equipments {
+		padding-top: 45px;
+		padding-bottom: 75px;
+	}
+	.tabs a {
+		font-size: 18px;
+	}
+	.item-fleet__head {
+		font-size: 18px;
+		padding: 15px 22px;
+		padding-right: 17px;
+	}
+	.modal-fleet__top {
+		padding: 50px 25px;
+	}
+	.modal-fleet__right {
+		padding-left: 20px;
+	}
+	.modal-fleet .title-section {
+		font-size: 26px;
+	}
+	.slider-images__item {
+		height: 320px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -904,7 +1065,7 @@
 	.prices .table-main {
 		margin-right: 0;
 	}
-	.prices .table-main table th {
+	.table-main table th {
 		font-size: 16px;
 		padding: 15px 0;
 	}
@@ -1127,6 +1288,109 @@
 	}
 	.advantages + .partners {
 		padding-top: 0;
+	}
+
+	/*new*/ 
+	.rent {
+		display: block;
+	}
+	.rent__left {
+		width: 100%;
+	}
+	.item-parametr {
+		font-size: 14px;
+	}
+	.rent-bottom__buttons {
+		padding: 0 20px;
+		padding-top: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	.vertical-rent .swiper-wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+	.wrapper-swiper-rent {
+		padding-bottom: 0;
+	}
+	.vertical-rent .swiper-slide {
+		text-align: center;
+		width: 200px;
+	}
+	.wrapper-swiper-rent {
+		border: none;
+		border-bottom: 1px solid #BECCD5;
+	}
+	.image-swiper-rent {
+		height: 245px;
+	}
+	.vertical-rent .title-slide {
+		font-size: 13px;
+		padding-left: 0;
+		padding-bottom: 30px;
+		height: auto;
+	}
+	.image-vertical {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.vertical-rent .lines {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.vertical-rent .lines span {
+		width: 1px;
+		height: 14px;
+	}
+	.vertical-rent .title-slide::after {
+		transform: rotate(90deg);
+		transform-origin: 0;
+		left: 9px;
+		right: 0;
+		bottom: -6px;
+		top: auto;
+	}
+	.vertical-rent .title-slide {
+		text-align: center;
+		justify-content: center;
+	}
+	.vertical-rent .title-slide::before {
+		height: 20px;
+		width: 1px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		bottom: 0;
+		top: auto;
+	}
+	.row_equipment > div:nth-child(even) {
+		padding-top: 0;
+	}
+	.equipment-about img {
+		margin: 20px 0;
+	}
+	.equipments .title-section {
+		padding-bottom: 0;
+	}
+	.bottom-form-rent .checkbox-mobile {
+		position: relative;
+	}
+	.bottom-form-rent {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column-reverse;
+	}
+	.slider-images__item {
+		height: 400px;
+	}
+	.modal-fleet__right {
+		padding-left: 15px;
+		padding-top: 20px;
 	}
 }
 
@@ -1558,8 +1822,122 @@
 		margin-bottom: 15px;
 	}
 	.wrapper_page {
-    padding-top: 73px;
-}
+		padding-top: 73px;
+	}
+
+	/*new*/
+	.rent-bottom .btn-main {
+		margin: 0 5px;
+	}
+	.row_big > div:not(:first-child) .parametrs-wrap {
+		border: none;
+		padding-top: 0;
+	}
+	.rent__right {
+		padding: 50px 15px;
+	}
+	.about_rent {
+		padding-bottom: 30px;
+	}
+	.vertical-rent .swiper-slide {
+		width: 170px;
+	}
+	.vertical-rent .title-slide {
+		font-size: 12px;
+	}
+	.rent-bottom__buttons {
+		flex-direction: column;
+		padding: 0 15px;
+	}
+	.rent-bottom .btn-main {
+		margin: 0;
+		margin-top: 15px;
+	}
+	.image-vertical {
+		margin: 0 10px;
+		width: initial;
+	}
+	.list-planes {
+		display: block;
+	}
+	.item-plane {
+		width: 100%;
+	}
+	.modal-main {
+		padding: 30px 15px;
+	}
+	.item-plane .link-page {
+		font-size: 13px;
+	}
+	.equipment-about .title-section {
+		margin-bottom: 0;
+	}
+	.equipment-about {
+		padding-top: 30px;
+		padding-bottom: 40px;
+		background-image: none;
+	}
+	.equipments {
+		padding-top: 30px;
+		padding-bottom: 55px;
+	}
+	.consultation-equipment .title-section {
+		margin-bottom: 0;
+	}
+	.col_check {
+		order: 2;
+	}
+	.consultation-equipment {
+		padding-top: 30px;
+		padding-bottom: 45px;
+	}
+	.advantages-page_equipment .descr-big {
+		text-align: center;
+	}
+	.item-fleet .table-main table {
+		width: 1200px;
+	}
+	.item-fleet .table-main table th {
+		font-size: 13px;
+	}
+	.item-fleet .table-main::-webkit-scrollbar-thumb {
+		background-color: #144071;
+		border-radius: 10px;
+	}
+	.item-fleet .table-main::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #ccc;
+	}
+	.item-fleet__head {
+		font-size: 16px;
+		padding: 13px 15px;
+	}
+	.item-fleet__content {
+		padding: 10px 15px;
+	}
+	.tabs a {
+		font-size: 16px;
+		padding: 8px 0;
+	}
+	.item-fleet .table-main table th {
+		padding-top: 6px;
+	}
+	.tabs a {
+		margin-right: 35px;
+	}
+	.modal-fleet__top {
+		padding: 40px 15px;
+	}
+	.slider-images__item {
+		height: 310px;
+	}
+	.slider-images {
+		padding-bottom: 35px;
+	}
+	.modal-fleet .title-section {
+		font-size: 23px;
+		margin-bottom: 10px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1795,6 +2173,25 @@
 		font-size: 16px;
 		line-height: 25px;
 	}
+
+
+	/*new*/
+	.item-plane__icon {
+		width: 40px;
+	}
+	.item-plane {
+		padding-left: 42px;
+		font-size: 13px;
+	}
+	.equipments .item-service__image {
+		height: 200px;
+	}
+	.slider-images__item {
+		height: 270px;
+	}
+	.bottom-form-rent .checkbox {
+		margin-top: 0;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -1837,6 +2234,26 @@
 	}
 	.item-service_big .item-service__content {
 		min-height: 100%;
+	}
+
+	.vertical-rent .swiper-wrapper {
+		display: block;
+		transform: none !important;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.vertical-rent .swiper-slide {
+		height: initial;
+		flex: 1;
+		display: flex;
+		align-items: center;
+		width: 100% !important;
+	}
+	.vertical-rent .swiper-wrapper {
+		display: block;
 	}
 }
 

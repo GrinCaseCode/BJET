@@ -53,6 +53,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).parent().siblings(".item-question").removeClass("active");
 		$(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
 	});
+
+	$(".item-fleet__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-fleet").removeClass("active");
+		$(this).parent().siblings(".item-fleet").find(".item-fleet__content").slideUp(200);
+	});
+
+
 	//слайдер
 
 
@@ -107,6 +116,30 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		},
 		pagination: {
 			el: ".management-swiper .swiper-pagination",
+		},
+		breakpoints: {
+			768: {
+				autoHeight: false, 
+			}
+		}
+	});
+
+	var swiper_4 = new Swiper(".vertical-rent", {
+		spaceBetween: 0,
+		slidesPerView: 'auto',
+		freeMode: true,
+		watchSlidesProgress: false,
+	});
+
+	var swiper4_2 = new Swiper(".rent-swiper", {
+		slidesPerView: 1,
+		autoHeight: true, 
+		spaceBetween: 0,
+		thumbs: {
+			swiper: swiper_4,
+		},
+		pagination: {
+			el: ".rent-swiper .swiper-pagination",
 		},
 		breakpoints: {
 			768: {
@@ -226,6 +259,26 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+	$('.slider-images').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				arrows: false,
+				dots: true,
+			}
+		}
+		]
+	});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 	/*input file*/
@@ -236,6 +289,17 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	});
 
 
+	/*tabs*/
+
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings(".tab-container").find(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	});
+
 	 // стайлер для select
 	 $('select').styler();
 
@@ -244,6 +308,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
+
+	$(".fancybox-main").fancybox({
+		beforeShow : function(){
+			$(".fancybox-skin").addClass("main-fancybox");
+		},
+		afterShow : function(){
+			$('.modal-block .slider-images').slick('setPosition');
+		}
+	});
 
 
 	//Кнопка "Наверх"
